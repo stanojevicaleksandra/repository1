@@ -1,0 +1,96 @@
+* { font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    margin-top: 50px;
+}
+section {
+    border: 1px solid lightgray;
+    width:100%;
+    margin: 0;
+    padding: 10px;
+   background: LemonChiffon;
+}
+p {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-left: 2%;
+}
+
+#input, #filter{
+    border: none;   
+    border-bottom: 1px solid black;	
+    width:95%;
+    margin: 0% 2%;
+    height: 1.6em;
+    outline: 0;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+#button1 {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 2%;
+    background: darkseagreen;
+    border:1px solid grey;
+    border-radius: 4px;
+    color: whitesmoke;
+    padding: 4px 22px;
+    box-shadow: 2px 2px grey;
+}
+
+#button2 {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-bottom: 0;
+    background: black;
+    border:1px solid grey;
+    border-radius: 4px;
+    color: whitesmoke;
+    padding: 5px 22px;
+    box-shadow: 2px 2px grey;
+}
+
+ul {
+    width 95%;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li { 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none; 
+  }
+/*Stilizovanje novog div-a pri dodavanju taska*/
+.newDivClass {
+    background-color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1px 6px 3px 4px; 
+    font-weight: 600;
+}
+
+.newDivClass:hover {
+    background-color: gray;
+    color:whitesmoke;
+    font-style: italic;
+}
+/* Stilizovanje x dugmeta */
+.close {
+    float: right;
+    font-weight: 900;
+    color: orangered;
+}
+
+@media only screen and (min-width: 600px) {
+    section {
+        width: 50%;
+        margin: auto;
+    }
